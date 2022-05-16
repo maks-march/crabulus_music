@@ -1,0 +1,32 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 768px;
+    background: radial-gradient(circle, skyblue, steelblue);
+    color: #222;
+}
+
+div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-weight: bold;
+    border: 6px solid;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
